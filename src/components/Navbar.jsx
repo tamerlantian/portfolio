@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between p-4">
-      <div>Logo</div>
+      <div>ian</div>
       <Burguer isMobileValue={isMobile} />
     </nav>
   );
