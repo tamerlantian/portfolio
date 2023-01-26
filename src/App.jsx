@@ -1,16 +1,21 @@
-import React from 'react'
-import "./App.css"
-import Navbar from "./components/Navbar"
+import React from "react";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import { useStateContext } from "./context/ContextProvider";
 
 const App = () => {
-  return (
-    <div className='font-display h-full'>
-      <Navbar />
-      <div className='h-screen bg-cyan-500'>
-        Main
-      </div>
-    </div>
-  )
-}
+  const { open } = useStateContext();
 
-export default App
+  return (
+    <div className="font-display h-full bg-main">
+      { open && <div className="filter"></div>}
+      <Navbar />
+      <main className="h-screen">
+        <Hero />
+      </main>
+    </div>
+  );
+};
+
+export default App;
