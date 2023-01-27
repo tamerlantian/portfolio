@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import { BiMoon } from "react-icons/bi";
+
+import ButtonTheme from "./ButtonTheme";
 
 const RightNav = ({ onClose, open, isMobileValue }) => {
   const rightBar = useRef();
@@ -24,23 +25,29 @@ const RightNav = ({ onClose, open, isMobileValue }) => {
   }, []);
 
   // style for opening and closing sidenav
-  const mobile = `bg-white h-screen fixed top-0 right-0 pt-14 shadow-xl rightbar ${
-    open ? "translate-x-0 w-60" : "translate-x-full w-0"
+  const mobile = `bg-modal text-slate-200 z-10 w-72 rounded-xl fixed top-4 right-4 pt-2 pb-5 shadow-xl rightbar dark:text-black dark:bg-white ${
+    open ? "block" : "hidden"
   }`;
   // style for turning sidenav display flex
-  const desktop = `flex items-center`;
+  const desktop = `flex items-center text-white dark:text-black`;
   // styles for links with proper positioning
-  const linkClass = `${isMobileValue ? "pl-10 pt-5" : "pl-10"}`;
+  const linkClass = `hover:text-font ${isMobileValue ? "pl-5 pt-5" : "pl-10"}`;
 
   return (
     <ul ref={rightBar} className={isMobileValue ? mobile : desktop}>
-      <li className={linkClass}>About</li>
-      <li className={linkClass}>Projects</li>
-      <li className={linkClass}>Resume</li>
-      <li className={linkClass}>Contact</li>
-      <li className={linkClass}>
-        <BiMoon className="inline text-xl" />
-      </li>
+      <li className={linkClass}><a href="">About</a></li>
+      <li className={linkClass}><a href="">Projects</a></li>
+      <li className={linkClass}><a href="">Resume</a></li>
+      <li className={linkClass}><a href="">Contact</a></li>
+      {isMobileValue ? (
+        <li className="text-center">
+          <ButtonTheme mobile />
+        </li>
+      ) : (
+        <li>
+          <ButtonTheme />
+        </li>
+      )}
     </ul>
   );
 };

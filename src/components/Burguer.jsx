@@ -1,10 +1,9 @@
-import React, { useState } from "react";
 import { RxTextAlignJustify } from "react-icons/rx";
-import { IoMdClose } from "react-icons/io"
 import RightNav from "./RightNav";
+import { useStateContext } from "../context/ContextProvider";
 
 const Burguer = ({ isMobileValue }) => {
-  const [open, setOpen] = useState(false);
+  const {open, setOpen} = useStateContext();
 
   const handleClick = () => {
     setOpen(!open);
@@ -19,9 +18,9 @@ const Burguer = ({ isMobileValue }) => {
       <button
         id="hamburger"
         onClick={handleClick}
-        className="text-2xl md:hidden z-10"
+        className="text-2xl md:hidden text-font bg-slate-700 dark:text-black dark:bg-gray-300 rounded-full p-1"
       >
-        {open ? <IoMdClose /> : <RxTextAlignJustify />}
+        <RxTextAlignJustify />
       </button>
       <RightNav
         isMobileValue={isMobileValue}
