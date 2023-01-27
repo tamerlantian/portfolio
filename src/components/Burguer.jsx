@@ -18,7 +18,7 @@ const Burguer = ({ isMobileValue }) => {
       <button
         id="hamburger"
         onClick={handleClick}
-        className="text-2xl md:hidden text-font"
+        className="text-2xl md:hidden text-font bg-slate-700 dark:text-black dark:bg-gray-300 rounded-full p-1"
       >
         <RxTextAlignJustify />
       </button>
