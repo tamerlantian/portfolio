@@ -3,7 +3,7 @@ import { createContext, useContext, useState } from "react";
 const StateContext = createContext();
 
 export const ContextProvider = ({ children }) => {
-  const [isDarkTheme, setIsDarkTheme] = useState(false);
+  const [isDarkTheme, setIsDarkTheme] = useState(true);
   const [open, setOpen] = useState(false);
   const [screenSize, setScreenSize] = useState(undefined);
   const [isMobile, setIsMobile] = useState(false);

@@ -7,19 +7,19 @@ const ButtonTheme = ({ mobile }) => {
   const { toggleTheme, handleToggleTheme } = useStateContext();
 
   // this style switches the button when user is on a mobile device 
-  const style = `rounded-full bg-slate-700 ${
+  const style = `rounded-full bg-gray-300  ${
     mobile ? "w-11/12 mt-5 p-4" : "p-2 ml-10"
-  } dark:bg-gray-300`;
+  } dark:bg-slate-700`;
 
   return (
     <button onClick={handleToggleTheme} className={style}>
       {toggleTheme ? (
         <BiMoon className="inline text-xl dark:text-black" />
       ) : (
-        <BsSun className="inline text-xl dark:text-black" />
+        <BsSun className="inline text-xl dark:text-slate-200" />
       )}
 
-      {mobile && <span className="dark:text-black ml-3">Change to light theme</span>}
+      {mobile && <span className="dark:text-slate-200 ml-3">Change to {toggleTheme ? "dark" : "light"} theme</span>}
     </button>
   );
 };

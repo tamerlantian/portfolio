@@ -1,0 +1,7 @@
+export { default as Burguer } from "./Burguer"
+export { default as ButtonTheme } from "./ButtonTheme"
+export { default as Hero } from "./Hero"
+export { default as Navbar } from "./Navbar"
+export { default as RightNav } from "./RightNav"
+export { default as SocialBar } from "./SocialBar"
+export { default as About } from "./About"

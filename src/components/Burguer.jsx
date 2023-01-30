@@ -1,9 +1,9 @@
 import { RxTextAlignJustify } from "react-icons/rx";
-import RightNav from "./RightNav";
+import { RightNav } from "./";
 import { useStateContext } from "../context/ContextProvider";
 
 const Burguer = ({ isMobileValue }) => {
-  const {open, setOpen} = useStateContext();
+  const { open, setOpen } = useStateContext();
 
   const handleClick = () => {
     setOpen(!open);
@@ -18,7 +18,7 @@ const Burguer = ({ isMobileValue }) => {
       <button
         id="hamburger"
         onClick={handleClick}
-        className="text-2xl md:hidden text-font bg-slate-700 dark:text-black dark:bg-gray-300 rounded-full p-1"
+        className="text-2xl md:hidden text-black bg-gray-300 dark:text-white dark:bg-slate-700 rounded-full p-1.5"
       >
         <RxTextAlignJustify />
       </button>
