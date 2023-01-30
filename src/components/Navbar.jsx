@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Burguer from "./Burguer";
 import logo from "../assets/logo.png";
+
+import { Burguer } from "./";
 import { useStateContext } from "../context/ContextProvider";
 
 const Navbar = () => {
