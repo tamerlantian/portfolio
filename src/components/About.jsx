@@ -1,6 +1,5 @@
 import React from "react";
-import { MdKeyboardArrowRight } from "react-icons/md";
-// import { skills } from "../data/info";
+import { AiOutlineCloudDownload } from "react-icons/ai"
 
 const About = () => {
   return (
@@ -24,15 +23,12 @@ const About = () => {
             Upstatement for a variety of clients.
           </p>
         </div>
-        {/* // <ul className="grid grid-cols-2 w-96  mt-5">
-        //   {skills.map((skill) => {
-        //     return (
-        //       <li key={skill} className="mb-3">
-        //         <MdKeyboardArrowRight className="inline text-font" /> {skill}
-        //       </li>
-        //     );
-        //   })}
-        // </ul> */}
+        <div className="mt-16">
+          <a className="rounded-xl bg-gray-600 text-white py-3 px-5">
+            Download CV
+            <AiOutlineCloudDownload className="inline text-xl ml-2" />
+          </a>
+        </div>
       </div>
     </section>
   );

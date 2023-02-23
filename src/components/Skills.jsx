@@ -6,12 +6,19 @@ const Skills = () => {
   return (
     <section>
       <div>
-        <h3 className="text-2xl font-semibold text-dark dark:text-slate-200">Skills</h3>
+        <h3 className="text-2xl font-semibold text-dark dark:text-slate-200">
+          Skills
+        </h3>
         <div className="flex flex-wrap gap-4 mt-10">
-          {skills.map((skill) => {
+          {skills.map(({ tag, icon }) => {
+            console.log(icon);
             return (
-              <div className="bg-font text-white rounded py-1.5 px-3">
-                {skill}
+              <div
+                key={tag}
+                className="bg-font text-white rounded shadow-lg py-1.5 px-3 flex items-center gap-1.5"
+              >
+                <div className={`text-lg`}>{icon}</div>
+                {tag}
               </div>
             );
           })}

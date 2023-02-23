@@ -30,7 +30,7 @@ const Navbar = () => {
   }, [screenSize]);
 
   return (
-    <nav className="flex justify-between items-center py-4 px-8">
+    <nav className="flex justify-between items-center py-4 px-8 fixed w-full backdrop-blur-[10px] shadow-lg">
       <div>
         <img className="w-12" src={logo} alt="" />
       </div>

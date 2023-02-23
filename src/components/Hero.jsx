@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
         <div className="delay-400">
           <p className="text-slate-700 mt-5 md:mt-10 max-w-xl dark:text-slate-400">
-            I’m a software engineer specializing in building (and occasionally
+            I’m a self-taught developer specializing in building (and occasionally
             designing) exceptional digital experiences. Currently, I’m focused on
             building accessible, human-centered products at Upstatement.
           </p>

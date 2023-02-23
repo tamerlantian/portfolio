@@ -45,7 +45,7 @@ section {
 .filter {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -54,22 +54,21 @@ section {
 
 /* width */
 ::-webkit-scrollbar {
-  width: .4rem;
+  width: 0.4rem;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: hsl(180, 8%, 52%); 
+  background: hsl(180, 8%, 52%);
   border-radius: 1rem;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(199,37,225,255); 
-  
+  background: rgba(199, 37, 225, 255);
 }
