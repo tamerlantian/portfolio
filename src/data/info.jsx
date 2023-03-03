@@ -1,7 +1,6 @@
 import landing1 from "../assets/landing1.png";
 import landing2 from "../assets/landing2.png";
 import landing3 from "../assets/landing3.jpg";
-import PortfolioImage from "../assets/portfolio.png";
 import {
   DiReact,
   DiJavascript1,
@@ -12,6 +11,9 @@ import {
 import { SiTailwindcss } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
+import { SiTryhackme, SiCodewars } from "react-icons/si"
+import { VscCode } from "react-icons/vsc"
+import { TfiWorld } from "react-icons/tfi"
 
 export const skills = [
   {
@@ -83,17 +85,29 @@ export const hobbies = [
     title: "Codewars",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ab, nam ut voluptatem vero eum distinctio temporibus nisi. Dolorem hic suscipit sit rem iure temporibus sapiente mollitia, possimus blanditiis odit!",
-    image: "https://www.codewars.com/users/ian_2398/badges/large",
+    icon: <SiCodewars />,
+    website: {
+      icon: <TfiWorld /> ,
+      link: "https://www.codewars.com/users/ian_2398"
+    }
   },
   {
     title: "Tryhackme",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, quasi at earum nobis doloremque consectetur consequuntur repudiandae perspiciatis aperiam quas. Mollitia necessitatibus dolorum rerum eum distinctio, rem repellat provident optio.",
-    image: "https://tryhackme-badges.s3.amazonaws.com/tamerlan.png",
+    icon: <SiTryhackme />,
+    website: {
+      icon: <TfiWorld /> ,
+      link: "https://tryhackme.com/p/tamerlan"
+    }
   },
   {
-    title: "TryWilco",
+    title: "Trywilco",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid architecto corporis soluta quas voluptatibus consequatur quia dolorem natus ipsum est libero assumenda illum vero in nemo, id adipisci possimus nesciunt?",
-    image: ""
+    icon: <VscCode />,
+    website: {
+      icon: <TfiWorld /> ,
+      link: "https://app.wilco.gg/portfolio/tamerlantian"
+    }
   }
 ];
