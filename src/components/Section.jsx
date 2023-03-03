@@ -1,7 +1,5 @@
 import React from "react";
 import { SectionTitle } from "./";
-import PortfolioImage from "../assets/portfolio.png";
-import { TbWorld } from "react-icons/tb";
 import { hobbies } from "../data/info";
 
 const Section = () => {
@@ -15,30 +13,33 @@ const Section = () => {
           current skills mostly in terms of programming and technology{" "}
         </p>
       </div>
-      <div className="md:px-16 xl:px-28 gap-8 mt-16">
+      <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-8 mt-16">
         {hobbies.map((hobbie) => {
           return (
             <div
               key={hobbies.title}
-              className="flex flex-col md:flex-row shadow-xl mt-4  dark:bg-modal p-4"
+              className="flex flex-col justify-between shadow-xl mt-4  dark:bg-modal px-8 py-7  h-full"
             >
-              <div className="bg-black h-20 badges mb-5 flex items-center justify-center">
-                <div>
-                  <img
-                    className="mx-auto w-[20rem]"
-                    src={hobbie.image}
-                    alt=""
-                  />
+              <header>
+                <div className="flex items-center gap-3">
+                  <div className="text-xl dark:text-white">{hobbie.icon}</div>
+                  <h3 className="text-xl font-bold dark:text-slate-200">
+                    {hobbie.title}
+                  </h3>
                 </div>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold dark:text-slate-200">
-                  {hobbie.title}
-                </h3>
-                <p className="text-slate-600 dark:text-slate-400 font-alt pt-3">
-                  {hobbie.description}
-                </p>
-              </div>
+                <div>
+                  <p className="text-slate-600 dark:text-slate-400 pt-3">
+                    {hobbie.description}
+                  </p>
+                </div>
+              </header>
+              <footer>
+                <div className="text-lg mt-5 dark:text-white">
+                  <a href={hobbie.website.link} className="hover:text-font inline-block">
+                    {hobbie.website.icon}
+                  </a>
+                </div>
+              </footer>
             </div>
           );
         })}
