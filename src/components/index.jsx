@@ -11,6 +11,8 @@ export { default as SectionTitle } from "./SectionTitle";
 export { default as Section } from "./Section";
 export { default as Contact } from "./Contact";
 export { default as HobbiesCard } from "./HobbiesCard";
+export { default as Footer } from "./Footer";
+export { default as AboutMe } from "./AboutMe";
 
 // Form
 export { default as Input } from "./form/Input";
