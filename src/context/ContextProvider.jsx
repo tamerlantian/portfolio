@@ -7,7 +7,7 @@ export const ContextProvider = ({ children }) => {
   const [open, setOpen] = useState(false);
   const [screenSize, setScreenSize] = useState(undefined);
   const [isMobile, setIsMobile] = useState(false);
-  const [toggleTheme, setToggleTheme] = useState(false);
+  const [toggleTheme, setToggleTheme] = useState(true);
 
   const handleToggleTheme = () => {
     setToggleTheme(!toggleTheme);

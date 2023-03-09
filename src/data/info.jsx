@@ -11,9 +11,33 @@ import {
 import { SiTailwindcss } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
-import { SiTryhackme, SiCodewars } from "react-icons/si"
-import { VscCode } from "react-icons/vsc"
-import { TfiWorld } from "react-icons/tfi"
+import { SiTryhackme, SiCodewars } from "react-icons/si";
+import { VscCode } from "react-icons/vsc";
+import { TfiWorld } from "react-icons/tfi";
+import { FiTwitter, FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
+
+export const socialData = [
+  {
+    tag: "twitter",
+    icon: <FiTwitter />,
+    link: "https://twitter.com/2301_ian"
+  },
+  {
+    tag: "github",
+    icon: <FiGithub />,
+    link: "https://github.com/tamerlantian"
+  },
+  {
+    tag: "linkedin",
+    icon: <FiLinkedin />,
+    link: "https://www.linkedin.com/in/sebastianhoyos0123/"
+  },
+  {
+    tag: "instagram",
+    icon: <FiInstagram />,
+    link: "https://www.instagram.com/sebas_tian.08/"
+  },
+]
 
 export const skills = [
   {
@@ -87,9 +111,9 @@ export const hobbies = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ab, nam ut voluptatem vero eum distinctio temporibus nisi. Dolorem hic suscipit sit rem iure temporibus sapiente mollitia, possimus blanditiis odit!",
     icon: <SiCodewars />,
     website: {
-      icon: <TfiWorld /> ,
-      link: "https://www.codewars.com/users/ian_2398"
-    }
+      icon: <TfiWorld />,
+      link: "https://www.codewars.com/users/ian_2398",
+    },
   },
   {
     title: "Tryhackme",
@@ -97,17 +121,18 @@ export const hobbies = [
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, quasi at earum nobis doloremque consectetur consequuntur repudiandae perspiciatis aperiam quas. Mollitia necessitatibus dolorum rerum eum distinctio, rem repellat provident optio.",
     icon: <SiTryhackme />,
     website: {
-      icon: <TfiWorld /> ,
-      link: "https://tryhackme.com/p/tamerlan"
-    }
+      icon: <TfiWorld />,
+      link: "https://tryhackme.com/p/tamerlan",
+    },
   },
   {
     title: "Trywilco",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid architecto corporis soluta quas voluptatibus consequatur quia dolorem natus ipsum est libero assumenda illum vero in nemo, id adipisci possimus nesciunt?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid architecto corporis soluta quas voluptatibus consequatur quia dolorem natus ipsum est libero assumenda illum vero in nemo, id adipisci possimus nesciunt?",
     icon: <VscCode />,
     website: {
-      icon: <TfiWorld /> ,
-      link: "https://app.wilco.gg/portfolio/tamerlantian"
-    }
-  }
+      icon: <TfiWorld />,
+      link: "https://app.wilco.gg/portfolio/tamerlantian",
+    },
+  },
 ];

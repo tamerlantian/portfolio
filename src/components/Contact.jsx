@@ -53,7 +53,7 @@ const Contact = () => {
               cols="7"
               rows="8"
               placeholder="send me a message..."
-              className={`placeholder-slate-300 p-3 border-2 rounded-lg dark:bg-modal ${errors.message ? "border-rose-500" : "dark:border-main"}`}
+              className={`placeholder-slate-300 p-3 border-2 rounded-lg dark:bg-modal dark:text-white ${errors.message ? "border-rose-500" : "dark:border-main"}`}
             ></textarea>
             {errors.message?.type === "required" && (
               <ErrorMessage>Message is required.</ErrorMessage>

@@ -8,7 +8,9 @@ import {
   Projects,
   SectionTitle,
   Section,
-  Contact
+  Contact,
+  Footer,
+  AboutMe
 } from "./components";
 import { useStateContext } from "./context/ContextProvider";
 import Skills from "./components/Skills";
@@ -50,6 +52,7 @@ const App = () => {
         <Projects />
         <Section />
         <Contact />
+        <Footer />
       </main>
     </div>
   );
