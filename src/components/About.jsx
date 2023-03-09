@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import { AiOutlineCloudDownload } from "react-icons/ai";
 
 const About = () => {
@@ -30,10 +31,10 @@ const About = () => {
           </p>
         </div>
         <div className="mt-16">
-          <a className="rounded-xl bg-gray-600 text-white py-3 px-5">
+          <Link to="/pdf" className="rounded-xl bg-gray-600 text-white py-3 px-5">
             Download CV
             <AiOutlineCloudDownload className="inline text-xl ml-2" />
-          </a>
+          </Link>
         </div>
       </div>
     </section>

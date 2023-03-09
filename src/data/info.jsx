@@ -1,6 +1,4 @@
 import landing1 from "../assets/landing1.png";
-import landing2 from "../assets/landing2.png";
-import landing3 from "../assets/landing3.jpg";
 import {
   DiReact,
   DiJavascript1,
@@ -20,24 +18,24 @@ export const socialData = [
   {
     tag: "twitter",
     icon: <FiTwitter />,
-    link: "https://twitter.com/2301_ian"
+    link: "https://twitter.com/2301_ian",
   },
   {
     tag: "github",
     icon: <FiGithub />,
-    link: "https://github.com/tamerlantian"
+    link: "https://github.com/tamerlantian",
   },
   {
     tag: "linkedin",
     icon: <FiLinkedin />,
-    link: "https://www.linkedin.com/in/sebastianhoyos0123/"
+    link: "https://www.linkedin.com/in/sebastianhoyos0123/",
   },
   {
     tag: "instagram",
     icon: <FiInstagram />,
-    link: "https://www.instagram.com/sebas_tian.08/"
+    link: "https://www.instagram.com/sebas_tian.08/",
   },
-]
+];
 
 export const skills = [
   {
@@ -57,52 +55,41 @@ export const skills = [
     icon: <DiLinux />,
   },
   {
-    tag: "MongoDB",
-    icon: <DiMongodb />,
-  },
-  {
     tag: "Java",
     icon: <FaJava />,
   },
   {
-    tag: "Tailwind",
-    icon: <SiTailwindcss />,
+    tag: "MongoDB",
+    icon: <DiMongodb />,
   },
   {
     tag: "MySQL",
     icon: <GrMysql />,
   },
   {
+    tag: "Tailwind",
+    icon: <SiTailwindcss />,
+  },
+  {
     tag: "C Sharp",
-    icon: <SiCsharp />
-  }
+    icon: <SiCsharp />,
+  },
 ];
 
 export const projects = [
   {
-    name: "Tier App",
+    name: "Mascota Feliz",
     image: landing1,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, fugiat illo molestias voluptate id facilis, repudiandae sit praesentium aut adipisci alias.",
-    tools: ["React", "Tailwind", "Express", "MongoDB"],
+    description: "",
+    tools: ["React", "Tailwind", "Loopback", "MongoDB"],
     githubLink: "",
     liveLink: "",
   },
   {
-    name: "Pet App",
-    image: landing2,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, fugiat illo molestias voluptate id facilis, repudiandae sit praesentium aut adipisci alias.",
-    tools: ["React", "Bootstrap", "NodeJS", "MongoDB"],
-    githubLink: "",
-    liveLink: "",
-  },
-  {
-    name: "Clock App",
-    image: landing3,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, fugiat illo molestias voluptate id facilis, repudiandae sit praesentium aut adipisci alias.",
-    tools: ["React", "Styled Components", "Express", "MySQL"],
+    name: "Portfolio",
+    image: landing1,
+    description: "",
+    tools: ["React", "Tailwind"],
     githubLink: "",
     liveLink: "",
   },
@@ -144,18 +131,18 @@ export const hobbies = [
 export const navbarItems = [
   {
     link: "#about",
-    name: "About"
+    name: "About",
   },
   {
     link: "#projects",
-    name: "Projects"
+    name: "Projects",
   },
   {
     link: "#hobbies",
-    name: "Hobbies"
+    name: "Hobbies",
   },
   {
     link: "#contact",
-    name: "Contact"
+    name: "Contact",
   },
-]
+];
