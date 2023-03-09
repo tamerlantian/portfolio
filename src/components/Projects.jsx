@@ -4,7 +4,7 @@ import { ProjectPreview, SectionTitle } from "./";
 
 const Projects = () => {
   return (
-    <section className="mx-auto mt-20">
+    <section id="projects" className="mx-auto mt-20">
       <SectionTitle title="Projects" />
       <div className="grid lg:grid-cols-2">
         {projects.map((project) => {

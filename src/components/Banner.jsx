@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hero = () => {
+const Banner = () => {
   return (
     <section className="flex justify-center items-center flex-col h-full">
       <div>
@@ -25,11 +25,11 @@ const Hero = () => {
           </p>
         </div>
         <button className="border border-darkFont py-3 px-10 mt-10 text-font hover:rounded-md hover:bg-font hover:text-white hover:-translate-y-3 hover:ease-in-out hover:duration-300 ease-in-out duration-300 dark:border-font">
-          Projects
+          <a href="#projects">Projects</a>
         </button>
       </div>
     </section>
   );
 };
 
-export default Hero;
+export default Banner;

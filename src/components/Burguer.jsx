@@ -2,7 +2,7 @@ import { RxTextAlignJustify } from "react-icons/rx";
 import { RightNav } from "./";
 import { useStateContext } from "../context/ContextProvider";
 
-const Burguer = ({ isMobileValue }) => {
+const Burguer = ({ isMobile }) => {
   const { open, setOpen } = useStateContext();
 
   const handleClick = () => {
@@ -23,7 +23,7 @@ const Burguer = ({ isMobileValue }) => {
         <RxTextAlignJustify />
       </button>
       <RightNav
-        isMobileValue={isMobileValue}
+        isMobile={isMobile}
         onClose={handleClose}
         open={open}
       />
