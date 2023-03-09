@@ -11,7 +11,7 @@ const Contact = () => {
   const onSubmit = () => console.log("submitted");
 
   return (
-    <section className="pt-[100px] mx-auto">
+    <section id="contact" className="pt-[100px] mx-auto">
       <SectionTitle title="Contact me" />
       <form
         onSubmit={handleSubmit(onSubmit)}

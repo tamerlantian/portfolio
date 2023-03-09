@@ -11,7 +11,7 @@ import {
 import { SiTailwindcss } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
-import { SiTryhackme, SiCodewars } from "react-icons/si";
+import { SiTryhackme, SiCodewars, SiCsharp } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 import { TfiWorld } from "react-icons/tfi";
 import { FiTwitter, FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
@@ -72,6 +72,10 @@ export const skills = [
     tag: "MySQL",
     icon: <GrMysql />,
   },
+  {
+    tag: "C Sharp",
+    icon: <SiCsharp />
+  }
 ];
 
 export const projects = [
@@ -136,3 +140,22 @@ export const hobbies = [
     },
   },
 ];
+
+export const navbarItems = [
+  {
+    link: "#about",
+    name: "About"
+  },
+  {
+    link: "#projects",
+    name: "Projects"
+  },
+  {
+    link: "#hobbies",
+    name: "Hobbies"
+  },
+  {
+    link: "#contact",
+    name: "Contact"
+  },
+]

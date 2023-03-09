@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useEffect } from "react";
 import logo from "../assets/logo.png";
 
 import { Burguer } from "./";
@@ -34,10 +34,9 @@ const Navbar = () => {
       <div>
         <img className="w-12" src={logo} alt="" />
       </div>
-      <Burguer isMobileValue={isMobile} />
+      <Burguer isMobile={isMobile} />
     </nav>
   );
 };
 
 export default Navbar;
-Navbar;
