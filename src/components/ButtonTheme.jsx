@@ -8,8 +8,8 @@ const ButtonTheme = ({ mobile }) => {
     useStateContext();
 
   // this style switches the button when user is on a mobile device
-  const style = `rounded-full bg-gray-300  ${
-    mobile ? "w-11/12 mt-5 p-4" : "p-2 ml-10"
+  const style = `rounded-full  bg-gray-300  ${
+    mobile ? "w-11/12 mt-5 p-4" : "p-2 ml-10 w-[40px]"
   } dark:bg-slate-700`;
 
   const handleClick = () => {

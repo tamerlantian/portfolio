@@ -1,4 +1,5 @@
 import landing1 from "../assets/landing1.png";
+import portfolioImage from "../assets/portfolio.png";
 import {
   DiReact,
   DiJavascript1,
@@ -11,8 +12,13 @@ import { FaJava } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { SiTryhackme, SiCodewars, SiCsharp } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
-import { TfiWorld } from "react-icons/tfi";
-import { FiTwitter, FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
+import {
+  FiTwitter,
+  FiGithub,
+  FiLinkedin,
+  FiInstagram,
+  FiUser,
+} from "react-icons/fi";
 
 export const socialData = [
   {
@@ -87,7 +93,7 @@ export const projects = [
   },
   {
     name: "Portfolio",
-    image: landing1,
+    image: portfolioImage,
     description: "",
     tools: ["React", "Tailwind"],
     githubLink: "",
@@ -99,30 +105,30 @@ export const hobbies = [
   {
     title: "Codewars",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ab, nam ut voluptatem vero eum distinctio temporibus nisi. Dolorem hic suscipit sit rem iure temporibus sapiente mollitia, possimus blanditiis odit!",
+      "Codewars is an online platform that provides programming challenges. It's a great platform for improving programming skills and learning new programming languages.",
     icon: <SiCodewars />,
     website: {
-      icon: <TfiWorld />,
+      icon: <FiUser />,
       link: "https://www.codewars.com/users/ian_2398",
     },
   },
   {
     title: "Tryhackme",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, quasi at earum nobis doloremque consectetur consequuntur repudiandae perspiciatis aperiam quas. Mollitia necessitatibus dolorum rerum eum distinctio, rem repellat provident optio.",
+      "Tryhackme is an online platform that offers hands-on cybersecurity challenges and training. It provides a wide range of virtual machines, challenges, and learning paths deigned to help users develop their cybersecurity skills and knowledge",
     icon: <SiTryhackme />,
     website: {
-      icon: <TfiWorld />,
+      icon: <FiUser />,
       link: "https://tryhackme.com/p/tamerlan",
     },
   },
   {
     title: "Trywilco",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid architecto corporis soluta quas voluptatibus consequatur quia dolorem natus ipsum est libero assumenda illum vero in nemo, id adipisci possimus nesciunt?",
+      "Wilco provides a fantasy company with its own production environment that simulates lifelike challenges. It's like a flight simulator for developers, where you practice and develop engineering skills",
     icon: <VscCode />,
     website: {
-      icon: <TfiWorld />,
+      icon: <FiUser />,
       link: "https://app.wilco.gg/portfolio/tamerlantian",
     },
   },

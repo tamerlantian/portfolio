@@ -18,7 +18,7 @@ const HobbiesCard = ({ hobbie }) => {
         <div className="text-lg mt-5 dark:text-white">
           <a
             href={hobbie.website.link}
-            className="hover:text-font inline-block"
+            className="hover:text-font inline-block text-xl"
           >
             {hobbie.website.icon}
           </a>

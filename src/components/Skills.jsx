@@ -11,7 +11,6 @@ const Skills = () => {
         </h3>
         <div className="flex flex-wrap gap-4 mt-10">
           {skills.map(({ tag, icon }) => {
-            console.log(icon);
             return (
               <div
                 key={tag}

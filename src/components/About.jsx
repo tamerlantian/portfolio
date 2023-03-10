@@ -11,7 +11,7 @@ const About = () => {
       <div className="mt-10 text-slate-700 dark:text-slate-400">
         <div>
           <p>
-            Hello! My name is Sebastian, and I'm a self-taught developer who's
+            Hello! My name is Sebastian, and I'm a developer who's
             passionate about coding and eager to learn more.
           </p>
           <br />
@@ -31,7 +31,7 @@ const About = () => {
           </p>
         </div>
         <div className="mt-16">
-          <Link to="/pdf" className="rounded-xl bg-gray-600 text-white py-3 px-5">
+          <Link to="/pdf" className="rounded-sm bg-gray-600 text-white py-3 px-5">
             Download CV
             <AiOutlineCloudDownload className="inline text-xl ml-2" />
           </Link>
