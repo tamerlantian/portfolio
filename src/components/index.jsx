@@ -19,3 +19,4 @@ export { default as Skills } from "./Skills";
 export { default as Input } from "./form/Input";
 export { default as Label } from "./form/Label";
 export { default as ErrorMessage } from "./form/ErrorMessage";
+export { default as LoadingMessage } from "./form/LoadingMessage";
