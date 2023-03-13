@@ -8,7 +8,7 @@ export { default as About } from "./About";
 export { default as Projects } from "./Projects";
 export { default as ProjectPreview } from "./ProjectPreview";
 export { default as SectionTitle } from "./SectionTitle";
-export { default as Section } from "./Section";
+export { default as Hobbies } from "./Hobbies";
 export { default as Contact } from "./Contact";
 export { default as HobbiesCard } from "./HobbiesCard";
 export { default as Footer } from "./Footer";

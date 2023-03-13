@@ -3,7 +3,7 @@ import { SectionTitle, About, Skills } from ".";
 
 const AboutMe = () => {
   return (
-    <section id="about" className="py-[100px]">
+    <section id="about" className="about">
       <SectionTitle title="About me" />
       <div>
         <p className="text-slate-700 dark:text-slate-400 mx-auto max-w-4xl mt-6 text-center">

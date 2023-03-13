@@ -1,6 +1,6 @@
 const HobbiesCard = ({ hobbie }) => {
   return (
-    <div className="flex flex-col justify-between shadow-xl mt-4  dark:bg-modal px-8 py-7  h-full">
+    <div className="flex flex-col justify-between shadow-xl dark:bg-modal px-8 py-7 h-full max-w-[20rem]">
       <header>
         <div className="flex items-center gap-3">
           <div className="text-xl dark:text-white">{hobbie.icon}</div>

@@ -4,11 +4,15 @@ import { ProjectPreview, SectionTitle } from "./";
 
 const Projects = () => {
   return (
-    <section id="projects" className="mx-auto mt-20">
+    <section id="projects" className="projects">
       <SectionTitle title="Projects" />
-      <div className="grid lg:grid-cols-2">
+      <div className="grid grid-cols-project justify-items-center justify-center gap-8 mt-10">
         {projects.map((project) => {
-          return <ProjectPreview key={project.name} project={project} />;
+          return (
+            <React.Fragment key={project.name}>
+              <ProjectPreview project={project} />
+            </React.Fragment>
+          );
         })}
       </div>
     </section>

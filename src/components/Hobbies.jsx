@@ -1,19 +1,17 @@
 import React from "react";
-import { SectionTitle, HobbiesCard } from "./";
+import { SectionTitle, HobbiesCard } from ".";
 import { hobbies } from "../data/info";
 
-const Section = () => {
+const Hobbies = () => {
   return (
-    <section id="hobbies" className="pt-[100px] mx-auto">
+    <section id="hobbies" className="hobbies">
       <SectionTitle title="Hobbies" />
       <div>
         <p className="text-slate-700 dark:text-slate-400 mx-auto max-w-4xl mt-6 text-center">
-          {" "}
-          Here you will find more information about me, what I do, and my
-          current skills mostly in terms of programming and technology{" "}
+          A bit of what I like to do in my free time related with programming.
         </p>
       </div>
-      <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-8 mt-16">
+      <div className="grid sm:grid-cols-2 justify-items-center md:grid-cols-3 mt-16 mx-auto max-w-[64rem] gap-8 ">
         {hobbies.map((hobbie) => {
           return <HobbiesCard key={hobbie.title} hobbie={hobbie} />;
         })}
@@ -22,4 +20,4 @@ const Section = () => {
   );
 };
 
-export default Section;
+export default Hobbies;

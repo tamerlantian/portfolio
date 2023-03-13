@@ -5,7 +5,7 @@ import {
   Banner,
   SocialBar,
   Projects,
-  Section,
+  Hobbies,
   Contact,
   Footer,
   AboutMe,
@@ -34,7 +34,7 @@ const Home = () => {
         <Banner />
         <AboutMe />
         <Projects />
-        <Section />
+        <Hobbies />
         <Contact />
         <Footer />
       </main>
