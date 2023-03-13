@@ -1,4 +1,4 @@
-import landing1 from "../assets/landing1.png";
+import projectOneImage from "../assets/mascotaFeliz.png";
 import portfolioImage from "../assets/portfolio.png";
 import {
   DiReact,
@@ -10,8 +10,9 @@ import {
 import { SiTailwindcss } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
-import { SiTryhackme, SiCodewars, SiCsharp } from "react-icons/si";
+import { SiCodewars, SiCsharp } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
+import { BiCodeBlock } from "react-icons/bi ";
 import {
   FiTwitter,
   FiGithub,
@@ -85,8 +86,10 @@ export const skills = [
 export const projects = [
   {
     name: "Mascota Feliz",
-    image: landing1,
-    description: "",
+    image: projectOneImage,
+    alt: "mascota feliz app image",
+    description: "Under construction...",
+    finished: false,
     tools: ["React", "Tailwind", "Loopback", "MongoDB"],
     githubLink: "",
     liveLink: "",
@@ -94,7 +97,10 @@ export const projects = [
   {
     name: "Portfolio",
     image: portfolioImage,
-    description: "",
+    alt: "portfolio app image",
+    description:
+      "A web app for visualizing more information about me. Here you can find my skills and hobbies.",
+    finished: true,
     tools: ["React", "Tailwind"],
     githubLink: "",
     liveLink: "",
@@ -113,13 +119,12 @@ export const hobbies = [
     },
   },
   {
-    title: "Tryhackme",
-    description:
-      "Tryhackme is an online platform that offers hands-on cybersecurity challenges and training. It provides a wide range of virtual machines, challenges, and learning paths deigned to help users develop their cybersecurity skills and knowledge",
-    icon: <SiTryhackme />,
+    title: "Frontendmentor",
+    description: "Frontend Mentor provides web design challenges for users to practice and improve their front-end development skills.",
+    icon: <BiCodeBlock />,
     website: {
       icon: <FiUser />,
-      link: "https://tryhackme.com/p/tamerlan",
+      link: "https://www.frontendmentor.io/profile/tamerlantian",
     },
   },
   {

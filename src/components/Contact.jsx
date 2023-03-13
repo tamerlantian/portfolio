@@ -36,7 +36,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="pt-[100px] mx-auto">
+    <section id="contact" className="contact">
       <SectionTitle title="Contact me" />
       <form
         ref={form}
@@ -90,7 +90,7 @@ const Contact = () => {
         </div>
         <button
           type="submit"
-          className="inline-flex items-center mt-5 bg-font text-white mx-auto w-full py-2 px-4 font-semibold  rounded-lg md:w-40 md:mx-0 disabled:opacity-50"
+          className="inline-flex items-center mt-5 bg-font text-white mx-auto w-full py-2 px-4 rounded-lg sm:w-40 md:mx-0 disabled:opacity-50"
           disabled={isLoading}
         >
           {isLoading ? (

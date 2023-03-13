@@ -19,8 +19,7 @@ const Banner = () => {
         </div>
         <div className="delay-400">
           <p className="block text-slate-700 mt-5 md:mt-10 max-w-xl dark:text-slate-400">
-            I'm a self-thaught Frontend developer.
-            Currently, I'm part of an ambassador program at Wilco which is a company aimed for developers who wants to upskilling their habilities.
+            Currently, I'm part of an ambassador program at <a href="https://www.trywilco.com/" className="text-font">Trywilco</a> which is a company aimed for developers who wants to upskilling their habilities.
           </p>
         </div>
         <a href="#projects" className="inline-block bg-font text-white border rounded-sm border-font py-3 px-10 mt-10 md:text-font md:bg-transparent hover:bg-font hover:text-white hover:-translate-y-1 hover:ease-in-out hover:duration-300 ease-in-out duration-300 dark:border-font">Projects</a>

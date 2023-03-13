@@ -15,6 +15,9 @@ module.exports = {
         darkFont: "rgba(199,37,225,255)",
         modal: "rgba(24,23,34,255)",
       },
+      gridTemplateColumns: {
+        project: "repeat(auto-fill, minmax(20rem, 30rem))",
+      },
     },
   },
   plugins: [],
