@@ -19,6 +19,7 @@ const HobbiesCard = ({ hobbie }) => {
           <a
             href={hobbie.website.link}
             className="hover:text-font inline-block text-xl"
+            target="_blank"
           >
             {hobbie.website.icon}
           </a>

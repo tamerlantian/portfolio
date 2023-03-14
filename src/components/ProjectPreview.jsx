@@ -18,9 +18,15 @@ const ProjectPreview = ({ project }) => {
       <div className="inner-project">
         <header>
           <div className="top">
-            <a href={liveLink} className={`${!finished && "disabled"}`}>
+            <a
+              href={liveLink}
+              target="_blank"
+              className={`${!finished && "disabled"}`}
+            >
               <img
-                className={`relativE w-full max-w-md rounded-lg ${!finished && "grayscale -z-10"}`}
+                className={`relativE w-full max-w-md rounded-lg ${
+                  !finished && "grayscale -z-10"
+                }`}
                 src={image}
                 alt={alt}
               />
@@ -29,7 +35,13 @@ const ProjectPreview = ({ project }) => {
           <div className="title">
             <span className="font-alt text-xs text-font">Featured Project</span>
             <h3 className="font-semibold dark:text-slate-200">
-              <a href="" className={`${!finished ? "disabled" : "hover:text-font"}`}>{name}</a>
+              <a
+                href={liveLink}
+                target="_blank"
+                className={`${!finished ? "disabled" : "hover:text-font"}`}
+              >
+                {name}
+              </a>
             </h3>
           </div>
           <div className="description text-md">
@@ -49,11 +61,15 @@ const ProjectPreview = ({ project }) => {
             })}
           </div>
           <div className="flex gap-4 my-3 text-slate-400">
-            <a href={githubLink} className="hover:text-font">
+            <a href={githubLink} target="_blank" className="hover:text-font">
               <FiGithub />
             </a>
-            <a href={liveLink} className={`${!finished ? "disabled" : "hover:text-font"}`}>
-              <FiExternalLink  />
+            <a
+              href={liveLink}
+              target="_blank"
+              className={`${!finished ? "disabled" : "hover:text-font"}`}
+            >
+              <FiExternalLink />
             </a>
           </div>
         </footer>

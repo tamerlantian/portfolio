@@ -102,8 +102,8 @@ export const projects = [
       "A web app for visualizing more information about me. Here you can find my skills and hobbies.",
     finished: true,
     tools: ["React", "Tailwind"],
-    githubLink: "",
-    liveLink: "",
+    githubLink: "https://github.com/tamerlantian/portfolio",
+    liveLink: "https://main--elaborate-bonbon-db4b47.netlify.app/",
   },
 ];
 

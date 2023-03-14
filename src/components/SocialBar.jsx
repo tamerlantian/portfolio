@@ -9,7 +9,7 @@ const SocialBar = () => {
       {socialData.map((social) => {
         return (
           <li key={social.tag} className={style}>
-            <a href={social.link} className="text-lg">
+            <a href={social.link} target="_blank" className="text-lg">
               {social.icon}
             </a>
           </li>
