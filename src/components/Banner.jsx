@@ -27,10 +27,10 @@ const Banner = () => {
               target="_blank"
               className="text-font"
             >
-              Trywilco
+              Trywilco,
             </a>{" "}
-            which is a company aimed for developers who wants to upskilling
-            their habilities.
+            which is a company aimed at developers who want to upskill their
+            abilities.
           </p>
         </div>
         <a
