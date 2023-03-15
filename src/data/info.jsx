@@ -7,10 +7,10 @@ import {
   DiLinux,
   DiNodejsSmall,
 } from "react-icons/di";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiGit } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
-import { SiCodewars, SiCsharp } from "react-icons/si";
+import { SiCodewars } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 import { BiCodeBlock } from "react-icons/bi ";
 import {
@@ -78,8 +78,8 @@ export const skills = [
     icon: <SiTailwindcss />,
   },
   {
-    tag: "C Sharp",
-    icon: <SiCsharp />,
+    tag: "Git",
+    icon: <SiGit />,
   },
 ];
 
