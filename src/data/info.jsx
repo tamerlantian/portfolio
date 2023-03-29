@@ -54,20 +54,12 @@ export const skills = [
     icon: <DiJavascript1 />,
   },
   {
-    tag: "NodeJS",
-    icon: <DiNodejsSmall />,
-  },
-  {
     tag: "Linux",
     icon: <DiLinux />,
   },
   {
     tag: "Java",
     icon: <FaJava />,
-  },
-  {
-    tag: "MongoDB",
-    icon: <DiMongodb />,
   },
   {
     tag: "MySQL",
@@ -85,12 +77,12 @@ export const skills = [
 
 export const projects = [
   {
-    name: "Mascota Feliz",
+    name: "Vetpet",
     image: projectOneImage,
     alt: "mascota feliz app image",
     description: "Under construction...",
     finished: false,
-    tools: ["React", "Tailwind", "Loopback", "MongoDB"],
+    tools: ["React","Redux Toolkit", "Tailwind", "Chakra UI"],
     githubLink: "",
     liveLink: "",
   },
