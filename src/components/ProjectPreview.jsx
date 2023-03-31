@@ -24,8 +24,8 @@ const ProjectPreview = ({ project }) => {
               className={`${!finished && "disabled"}`}
             >
               <img
-                className={`relativE w-full max-w-md rounded-lg ${
-                  !finished && "grayscale -z-10"
+                className={`w-full max-w-md rounded-lg ${
+                  !finished && "grayscale"
                 }`}
                 src={image}
                 alt={alt}
