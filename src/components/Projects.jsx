@@ -1,11 +1,12 @@
 import React from "react";
-import { projects } from "../data/info";
+import { info } from "../data/info";
 import { ProjectPreview, SectionTitle } from "./";
 
-const Projects = () => {
+const Projects = ({ t }) => {
+  const { projects } = info();
   return (
     <section id="projects" className="projects">
-      <SectionTitle title="Projects" />
+      <SectionTitle title={t("projects.projects")} />
       <div className="grid grid-cols-project justify-items-center justify-center gap-8 mt-10">
         {projects.map((project) => {
           return (

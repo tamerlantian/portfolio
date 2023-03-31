@@ -1,0 +1,52 @@
+{
+    "navbar": {
+        "about": "About",
+        "projects": "Projects",
+        "hobbies": "Hobbies",
+        "contact": "Contact",
+        "change-to-light-theme": "Change to light theme",
+        "change-to-dark-theme": "Change to dark theme"
+    },
+    "banner": {
+        "hi-my-name-is": "Hi, my name is",
+        "description-1": "Currently, I'm part of an ambassador program at ",
+        "description-2": "which is a company aimed at developers who want to upskill their abilities",
+        "projects": "Projects"
+    },
+    "about": {
+        "about-me": "About me",
+        "description-1": "Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology.",
+        "get-to-know-me": "Get to know me",
+        "description-2": "Hello! My name is Sebastian, and I'm a developer who's passionate about coding and eager to learn more.",
+        "description-3": "Although I don't have any professional experience yet, I've spent countless hours studying programming languages, frameworks, and tools on my own. I've completed online courses, participated in coding challenges, and worked on personal projects to hone my skills and deepen my knowledge.",
+        "description-4": "As a self-taught developer, I've learned the importance of being self-motivated, disciplined, and persistent. I've encountered many challenges along the way, but I've persevered through them all, and I've gained a strong sense of resilience and determination.",
+        "download-cv": "Download CV",
+        "skills": "Skills"
+    },
+    "projects": {
+        "projects": "Projects",
+        "featured-project": "Featured Project",
+        "under-construction": "Under construction...",
+        "description-2": "I've never built a portfolio before, but I think my web development skills have improved immensely."
+    },
+    "hobbies": {
+        "description": "A bit of what I like to do in my free time related with programming.",
+        "card-description-1": "Codewars is an online platform that provides programming challenges. It's a great platform for improving programming skills and learning new programming languages.",
+        "card-description-2": "Frontend Mentor provides web design challenges for users to practice and improve their front-end development skills.",
+        "card-description-3": "Wilco provides a fantasy company with its own production environment that simulates lifelike challenges. It's like a flight simulator for developers, where you practice and develop engineering skills."
+    },
+    "contact": {
+        "contact-me": "Contact me",
+        "your-name": "Your Name",
+        "enter-your-name": "Enter your name",
+        "email-address": "Email Address",
+        "enter-your-email": "Enter your email",
+        "your-message": "Your message",
+        "send-me-a-message": "Send me a message...",
+        "send-message": "Send message",
+        "sending": "Enviando...",
+        "name-is-required": "Name is required",
+        "email-is-required": "Email is required",
+        "message-is-required": "Message is required"
+    }
+}

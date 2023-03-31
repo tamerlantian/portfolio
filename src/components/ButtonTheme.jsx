@@ -2,10 +2,12 @@ import React from "react";
 import { BiMoon } from "react-icons/bi";
 import { BsSun } from "react-icons/bs";
 import { useStateContext } from "../context/ContextProvider";
+import { useTranslation } from "react-i18next";
 
 const ButtonTheme = ({ mobile }) => {
   const { toggleTheme, handleToggleTheme, open, setOpen, isMobile } =
     useStateContext();
+  const [t] = useTranslation("global");
 
   // this style switches the button when user is on a mobile device
   const style = `rounded-full  bg-gray-300  ${
@@ -29,7 +31,9 @@ const ButtonTheme = ({ mobile }) => {
 
       {mobile && (
         <span className="dark:text-slate-200 ml-3">
-          Change to {toggleTheme ? "dark" : "light"} theme
+          {toggleTheme
+            ? t("navbar.change-to-dark-theme")
+            : t("navbar.change-to-light-theme")}
         </span>
       )}
     </button>

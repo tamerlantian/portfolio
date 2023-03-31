@@ -1,12 +1,14 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Banner = () => {
+  const [t] = useTranslation("global");
   return (
     <section className="flex justify-center items-center flex-col h-full">
       <div>
         <div className="delay-100">
           <span className="text-font font-alt dark:text-darkFont">
-            Hi, my name is
+            {t("banner.hi-my-name-is")}
           </span>
         </div>
         <div className="delay-200">
@@ -21,23 +23,22 @@ const Banner = () => {
         </div>
         <div className="delay-400">
           <p className="block text-slate-700 mt-5 md:mt-10 max-w-xl dark:text-slate-400">
-            Currently, I'm part of an ambassador program at{" "}
+            {t("banner.description-1")}{" "}
             <a
-              href="https://www.trywilco.com/"
+              href="https://www.trywilco.com/post/introducing-wilco-ambassadors"
               target="_blank"
-              className="text-font"
+              className="text-font hover:underline"
             >
               Trywilco,
             </a>{" "}
-            which is a company aimed at developers who want to upskill their
-            abilities.
+            {t("banner.description-2")}
           </p>
         </div>
         <a
           href="#projects"
           className="inline-block bg-font text-white border rounded-sm border-font py-3 px-10 mt-10 md:text-font md:bg-transparent hover:bg-font hover:text-white hover:-translate-y-1 hover:ease-in-out hover:duration-300 ease-in-out duration-300 dark:border-font"
         >
-          Projects
+          {t("banner.projects")}
         </a>
       </div>
     </section>

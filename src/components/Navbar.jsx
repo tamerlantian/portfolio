@@ -1,10 +1,12 @@
 import { useEffect } from "react";
 import logo from "../assets/logo.png";
+import LanguageSelector from "./navbar/LanguageSelector";
 
 import { Burguer } from "./";
 import { useStateContext } from "../context/ContextProvider";
 
 const Navbar = () => {
+  
   const { isMobile, setIsMobile } = useStateContext();
   const { screenSize, setScreenSize } = useStateContext();
 
@@ -34,7 +36,10 @@ const Navbar = () => {
       <div>
         <img className="w-12" src={logo} alt="" />
       </div>
-      <Burguer isMobile={isMobile} />
+      <div className="flex items-center">
+        <LanguageSelector />
+        <Burguer isMobile={isMobile} />
+      </div>
     </nav>
   );
 };
