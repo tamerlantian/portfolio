@@ -1,7 +1,8 @@
 import React from "react";
-import { socialData } from "../data/info";
+import { info } from "../data/info";
 
 const SocialBar = () => {
+  const { socialData } = info();
   const style =
     "my-6 mx-4 hover:-translate-y-1 hover:ease-in-out hover:duration-300 ease-in-out duration-300 hover:text-font";
   return (

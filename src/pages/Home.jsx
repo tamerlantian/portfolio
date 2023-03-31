@@ -11,8 +11,10 @@ import {
   AboutMe,
 } from "../components";
 import { useStateContext } from "../context/ContextProvider";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+  const [t] = useTranslation("global")
   const { open, toggleTheme } = useStateContext();
 
   useEffect(() => {
@@ -33,9 +35,9 @@ const Home = () => {
       <main className="container h-screen w-full max-w-[1600px] min-h-screen mx-auto px-6 xl:px-32 ">
         <Banner />
         <AboutMe />
-        <Projects />
-        <Hobbies />
-        <Contact />
+        <Projects t={t}/>
+        <Hobbies t={t} />
+        <Contact t={t} />
         <Footer />
       </main>
     </div>

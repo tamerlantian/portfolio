@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
 import { SectionTitle, Input, Label, ErrorMessage, LoadingMessage } from ".";
 
-const Contact = () => {
+const Contact = ({ t }) => {
   const form = useRef();
   const [isLoading, setIsLoading] = useState(false);
 
@@ -37,7 +37,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="contact">
-      <SectionTitle title="Contact me" />
+      <SectionTitle title={t("contact.contact-me")} />
       <form
         ref={form}
         onSubmit={handleSubmit(onSubmit)}
@@ -45,11 +45,11 @@ const Contact = () => {
       >
         <div className="flex flex-col sm:flex-row sm:gap-8 md:justify-center">
           <div className="mt-4">
-            <Label htmlFor="name">Your Name</Label>
+            <Label htmlFor="name">{t("contact.your-name")}</Label>
             <Input
               register={register}
               type="text"
-              placeholder="Enter your name"
+              placeholder={t("contact.enter-your-name")}
               registerName="name"
               error={errors.name}
             />
@@ -58,11 +58,11 @@ const Contact = () => {
             )}
           </div>
           <div className="mt-4">
-            <Label htmlFor="email">Email Address</Label>
+            <Label htmlFor="email">{t("contact.email-address")}</Label>
             <Input
               register={register}
               type="text"
-              placeholder="Enter your email"
+              placeholder={t("contact.enter-your-email")}
               registerName="email"
               error={errors.email}
             />
@@ -73,12 +73,12 @@ const Contact = () => {
         </div>
         <div className="mt-4">
           <div className="flex flex-col">
-            <Label htmlFor="message">Your Message</Label>
+            <Label htmlFor="message">{t("contact.your-message")}</Label>
             <textarea
               {...register("message", { required: true })}
               cols="7"
               rows="8"
-              placeholder="send me a message..."
+              placeholder={t("contact.send-me-a-message")}
               className={`placeholder-slate-300 p-3 border-2 rounded-lg dark:bg-modal dark:text-white ${
                 errors.message ? "border-rose-500" : "dark:border-main"
               }`}
@@ -94,9 +94,9 @@ const Contact = () => {
           disabled={isLoading}
         >
           {isLoading ? (
-            <LoadingMessage>Sending...</LoadingMessage>
+            <LoadingMessage>{t("contact.sending")}</LoadingMessage>
           ) : (
-            "Send message"
+            t("contact.send-message")
           )}
         </button>
       </form>

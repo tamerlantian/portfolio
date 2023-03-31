@@ -1,8 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import { ButtonTheme } from "./";
-import { navbarItems } from "../data/info";
+import { info } from "../data/info";
 
 const RightNav = ({ onClose, open, isMobile }) => {
+  const { navbarItems } = info();
   const rightBar = useRef();
   // the code below checks if the user has clicked outside of the menu when mobile phone is on and set the menu off
   useEffect(() => {

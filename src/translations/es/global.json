@@ -1,0 +1,52 @@
+{
+    "navbar": {
+        "about": "Acerca",
+        "projects": "Proyectos",
+        "hobbies": "Hobbies",
+        "contact": "Contacto",
+        "change-to-light-theme": "Cambiar a tema claro",
+        "change-to-dark-theme": "Cambiar a tema oscuro"
+    },
+    "banner": {
+        "hi-my-name-is": "Hola, mi nombre es",
+        "description-1": "Actualmente soy parte de un programa de embajadores en",
+        "description-2": " una empresa dirigida a desarrolladores que desean mejorar sus habilidades.",
+        "projects": "Proyectos"
+    },
+    "about": {
+        "about-me": "Acerca de mi",
+        "description-1": "Aquí encontrarás más información sobre mí, lo que hago y mis habilidades actuales, principalmente en términos de programación y tecnología.",
+        "get-to-know-me": "Conoceme!",
+        "description-2": "¡Hola! Mi nombre es Sebastián, y soy un desarrollador apasionado por la programación y ansioso por aprender más.",
+        "description-3": "Aunque todavía no tengo experiencia profesional, he pasado innumerables horas estudiando por mi cuenta lenguajes de programación, frameworks y herramientas. He completado cursos en línea, participado en desafíos de programación y trabajado en proyectos personales para perfeccionar mis habilidades y profundizar mi conocimiento.",
+        "description-4": "Como desarrollador autodidacta, he aprendido la importancia de ser auto-motivado, disciplinado y persistente. He encontrado muchos desafíos en el camino, pero he perseverado a través de todos ellos y he adquirido un fuerte sentido de la resistencia y determinación.",
+        "download-cv": "Descargar CV",
+        "skills": "Habilidades"
+    },
+    "projects": {
+        "projects": "Proyectos",
+        "featured-project": "Proyecto Destacado",
+        "under-construction": "En construcción...",
+        "description-2": "Nunca he construido un portafolio antes, pero pienso que mis habilidades en desarrollo web han mejorado enormemente."
+    },
+    "hobbies": {
+        "description": "Un poco de lo que me gusta hacer en mi tiempo libre está relacionado con la programación.",
+        "card-description-1": "Codewars es una plataforma en línea que ofrece desafíos de programación. Es una excelente plataforma para mejorar las habilidades de programación y aprender nuevos lenguajes.",
+        "card-description-2": "Frontend Mentor proporciona desafíos de diseño web para que los usuarios practiquen y mejoren sus habilidades de desarrollo frontend.",
+        "card-description-3": "Wilco es una plataforma que nos proporciona una empresa de fantasía con su propio entorno de producción que simula desafíos de la vida real. Es como un simulador de vuelo para desarrolladores, donde se practican y se desarrollan habilidades de ingeniería."
+    },
+    "contact": {
+        "contact-me": "Contáctame",
+        "your-name": "Tu Nombre",
+        "enter-your-name": "Ingresa tu nombre",
+        "email-address": "Dirección de Correo",
+        "enter-your-email": "Ingresa tu correo",
+        "your-message": "Tu mensaje",
+        "send-me-a-message": "Enviame un mensaje...",
+        "send-message": "Enviar mensaje",
+        "sending": "Sending...",
+        "name-is-required": "Nombre es requerido",
+        "email-is-required": "Correo es requerido",
+        "message-is-required": "Mensaje es requerido"
+    }
+}

@@ -2,12 +2,12 @@ import React from "react";
 
 import { skills } from "../data/info";
 
-const Skills = () => {
+const Skills = ({ t }) => {
   return (
     <section>
       <div>
         <h3 className="text-2xl font-semibold text-dark dark:text-slate-200">
-          Skills
+          {t("about.skills")}
         </h3>
         <div className="flex flex-wrap gap-4 mt-10">
           {skills.map(({ tag, icon }) => {
