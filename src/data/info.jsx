@@ -61,12 +61,19 @@ export const info = () => {
     ],
     projects: [
       {
-        name: "Vetpet",
+        name: "Full-Stack Vetpet ",
         image: projectOneImage,
         alt: "mascota feliz app image",
-        description: t("projects.under-construction"),
+        description: t("projects.refactoring"),
         finished: false,
-        tools: ["React", "Redux Toolkit", "Tailwind", "Chakra UI"],
+        tools: [
+          "React",
+          "Redux Toolkit",
+          "Tailwind",
+          "Chakra UI",
+          "Express",
+          "MongoDB",
+        ],
         githubLink: "https://github.com/tamerlantian/MascotaFeliz",
         liveLink: "",
       },
