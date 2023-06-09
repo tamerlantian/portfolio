@@ -26,6 +26,7 @@
     "projects": {
         "projects": "Proyectos",
         "featured-project": "Proyecto Destacado",
+        "description-1": "Desarrollo de una clínica veterinaria que ofrece una membresía preferencial para perros y gatos, y proporciona productos y servicios a sus miembros.",
         "refactoring": "Refactorizando ...",
         "description-2": "Nunca he construido un portafolio antes, pero pienso que mis habilidades en desarrollo web han mejorado enormemente."
     },

@@ -26,6 +26,7 @@
     "projects": {
         "projects": "Projects",
         "featured-project": "Featured Project",
+        "description-1": "Complete development of a vet clinic which offers a preferential membership for dogs and cats, and provides products and services to its members.",
         "refactoring": "Refactoring ...",
         "description-2": "I've never built a portfolio before, but I think my web development skills have improved immensely."
     },
