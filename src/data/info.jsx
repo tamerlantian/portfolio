@@ -1,13 +1,12 @@
 import { useTranslation } from "react-i18next";
-import projectOneImage from "../assets/mascotaFeliz.png";
-import portfolioImage from "../assets/portfolio.png";
+import projectOneImage from "../assets/vetpet_preview.png";
+import portfolioImage from "../assets/portfolio_preview.png";
 import { DiReact, DiJavascript1, DiLinux } from "react-icons/di";
-import { SiTailwindcss, SiGit } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
+import { SiTailwindcss, SiGit, SiNodedotjs, SiChakraui, SiRedux } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
-import { SiCodewars } from "react-icons/si";
+import { SiCodewars, SiMongodb } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
-import { BiCodeBlock } from "react-icons/bi ";
+import { BiCodeBlock } from "react-icons/bi";
 import {
   FiTwitter,
   FiGithub,
@@ -61,11 +60,11 @@ export const info = () => {
     ],
     projects: [
       {
-        name: "Full-Stack Vetpet ",
+        name: "Full-Stack Vetpet",
         image: projectOneImage,
-        alt: "mascota feliz app image",
-        description: t("projects.refactoring"),
-        finished: false,
+        alt: "vetpet landing preview image",
+        description: t("projects.description-1"),
+        finished: true,
         tools: [
           "React",
           "Redux Toolkit",
@@ -74,13 +73,13 @@ export const info = () => {
           "Express",
           "MongoDB",
         ],
-        githubLink: "https://github.com/tamerlantian/MascotaFeliz",
-        liveLink: "",
+        githubLink: "https://github.com/tamerlantian/vetpet",
+        liveLink: "https://backend-vetpet-production.up.railway.app/",
       },
       {
         name: "Portfolio",
         image: portfolioImage,
-        alt: "portfolio app image",
+        alt: "portfolio preview image",
         description: t("projects.description-2"),
         finished: true,
         tools: ["React", "Tailwind"],
@@ -145,24 +144,36 @@ export const socialData = [
 
 export const skills = [
   {
-    tag: "React",
-    icon: <DiReact />,
-  },
-  {
     tag: "Javascript",
     icon: <DiJavascript1 />,
   },
   {
-    tag: "Linux",
-    icon: <DiLinux />,
+    tag: "React",
+    icon: <DiReact />,
   },
   {
-    tag: "Java",
-    icon: <FaJava />,
+    tag: "Redux TK",
+    icon: <SiRedux />
+  },
+  {
+    tag: "Nodejs",
+    icon: <SiNodedotjs />,
+  },
+  {
+    tag: "MongoDB",
+    icon: <SiMongodb />,
   },
   {
     tag: "MySQL",
     icon: <GrMysql />,
+  },
+  {
+    tag: "Chakra IU",
+    icon: <SiChakraui />,
+  },
+  {
+    tag: "Linux",
+    icon: <DiLinux />,
   },
   {
     tag: "Tailwind",
