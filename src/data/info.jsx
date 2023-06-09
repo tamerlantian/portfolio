@@ -84,7 +84,7 @@ export const info = () => {
         finished: true,
         tools: ["React", "Tailwind"],
         githubLink: "https://github.com/tamerlantian/portfolio",
-        liveLink: "https://main--elaborate-bonbon-db4b47.netlify.app/",
+        liveLink: "https://sebastian-hoyos.netlify.app/",
       },
     ],
     hobbies: [
