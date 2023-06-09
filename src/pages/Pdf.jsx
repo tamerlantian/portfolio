@@ -1,6 +1,6 @@
 import React from "react";
-import cv_en from "../assets/docs/SEBASTIAN_ENGLISH.pdf";
-import cv_es from "../assets/docs/SEBASTIAN_SPANISH.pdf";
+import cv_en from "../assets/docs/English_CV.pdf";
+import cv_es from "../assets/docs/Spanish_CV.pdf";
 import { useTranslation } from "react-i18next";
 
 const Pdf = () => {
