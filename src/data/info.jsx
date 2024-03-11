@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
 import projectOneImage from "../assets/vetpet_preview.png";
 import portfolioImage from "../assets/portfolio_preview.png";
+import ascendevImage from "../assets/ascendev.png";
 import { DiReact, DiJavascript1, DiLinux } from "react-icons/di";
-import { SiTailwindcss, SiGit, SiNodedotjs, SiChakraui, SiRedux } from "react-icons/si";
-import { GrMysql } from "react-icons/gr";
+import { SiTailwindcss, SiGit, SiNodedotjs, SiChakraui, SiRedux, SiTypescript, SiNestjs, SiPostgresql } from "react-icons/si";
 import { SiCodewars, SiMongodb } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 import { BiCodeBlock } from "react-icons/bi";
@@ -60,6 +60,22 @@ export const info = () => {
     ],
     projects: [
       {
+        name: "Ascendev",
+        image: ascendevImage,
+        alt: "vetpet landing preview image",
+        description: t("projects.description-1"),
+        finished: true,
+        tools: [
+          "React",
+          "NestJS",
+          "Postgresql",
+          "Github Actions",
+          "Prisma ORM",
+        ],
+        githubLink: "https://github.com/tamerlantian/",
+        liveLink: "https://ascendev.onrender.com/",
+      },
+      {
         name: "Full-Stack Vetpet",
         image: projectOneImage,
         alt: "vetpet landing preview image",
@@ -74,7 +90,7 @@ export const info = () => {
           "MongoDB",
         ],
         githubLink: "https://github.com/tamerlantian/vetpet",
-        liveLink: "https://backend-vetpet-production.up.railway.app/",
+        liveLink: "https://vetpet-ten.vercel.app/",
       },
       {
         name: "Portfolio",
@@ -148,15 +164,23 @@ export const skills = [
     icon: <DiJavascript1 />,
   },
   {
+    tag: "Typescript",
+    icon: <SiTypescript />,
+  },
+  {
     tag: "React",
     icon: <DiReact />,
+  },
+  {
+    tag: "NestJS",
+    icon: <SiNestjs />,
   },
   {
     tag: "Redux TK",
     icon: <SiRedux />
   },
   {
-    tag: "Nodejs",
+    tag: "NodeJS",
     icon: <SiNodedotjs />,
   },
   {
@@ -164,8 +188,8 @@ export const skills = [
     icon: <SiMongodb />,
   },
   {
-    tag: "MySQL",
-    icon: <GrMysql />,
+    tag: "Postgresql",
+    icon: <SiPostgresql />,
   },
   {
     tag: "Chakra IU",
