@@ -9,8 +9,8 @@
     },
     "banner": {
         "hi-my-name-is": "Hi, my name is",
-        "description-1": "Currently, I'm part of an ambassador program at ",
-        "description-2": "which is a company aimed at developers who want to upskill their abilities",
+        "description-1": "Currently, I am a Co-Creator and Developer of",
+        "description-2": " a gamified platform aimed at enhancing programmers' skills.",
         "projects": "Projects"
     },
     "about": {
@@ -28,7 +28,8 @@
         "featured-project": "Featured Project",
         "description-1": "Complete development of a vet clinic which offers a preferential membership for dogs and cats, and provides products and services to its members.",
         "refactoring": "Refactoring ...",
-        "description-2": "I've never built a portfolio before, but I think my web development skills have improved immensely."
+        "description-2": "I've never built a portfolio before, but I think my web development skills have improved immensely.",
+        "description-3": "Ascendev is a gamified platform designed to enhance developers' skills with challenging full-stack applications. Additionally, it ensures that job openings are exclusively targeted towards developers with the necessary experience, thereby maximizing their chances of success."
     },
     "hobbies": {
         "description": "A bit of what I like to do in my free time related with programming.",

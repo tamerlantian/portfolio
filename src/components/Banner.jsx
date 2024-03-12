@@ -25,11 +25,11 @@ const Banner = () => {
           <p className="block text-slate-700 mt-5 md:mt-10 max-w-xl dark:text-slate-400">
             {t("banner.description-1")}{" "}
             <a
-              href="https://www.trywilco.com/post/introducing-wilco-ambassadors"
+              href="https://ascendev.onrender.com/"
               target="_blank"
               className="text-font hover:underline"
             >
-              Trywilco,
+              Ascendev,
             </a>{" "}
             {t("banner.description-2")}
           </p>
