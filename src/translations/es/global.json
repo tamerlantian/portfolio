@@ -9,8 +9,8 @@
     },
     "banner": {
         "hi-my-name-is": "Hola, mi nombre es",
-        "description-1": "Actualmente soy parte de un programa de embajadores en ",
-        "description-2": " una empresa dirigida a desarrolladores que desean mejorar sus habilidades.",
+        "description-1": "Actualmente soy Co-Creador y Desarrollador de ",
+        "description-2": " la cual es una plataforma gamificada para mejorar las habilidades de los programadores.",
         "projects": "Proyectos"
     },
     "about": {
@@ -28,7 +28,8 @@
         "featured-project": "Proyecto Destacado",
         "description-1": "Desarrollo de una clínica veterinaria que ofrece una membresía preferencial para perros y gatos, y proporciona productos y servicios a sus miembros.",
         "refactoring": "Refactorizando ...",
-        "description-2": "Nunca he construido un portafolio antes, pero pienso que mis habilidades en desarrollo web han mejorado enormemente."
+        "description-2": "Nunca he construido un portafolio antes, pero pienso que mis habilidades en desarrollo web han mejorado enormemente.",
+        "description-3": "Ascendev es una plataforma gamificada que mejora las habilidades de los desarrolladores con desafiantes aplicaciones completas, y garantiza que las vacantes estén dirigidas solo a desarrolladores con experiencia adecuada, maximizando sus posibilidades de éxito."
     },
     "hobbies": {
         "description": "Un poco de lo que me gusta hacer en mi tiempo libre está relacionado con la programación.",

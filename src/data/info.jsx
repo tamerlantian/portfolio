@@ -62,8 +62,8 @@ export const info = () => {
       {
         name: "Ascendev",
         image: ascendevImage,
-        alt: "vetpet landing preview image",
-        description: t("projects.description-1"),
+        alt: "ascendev landing preview image",
+        description: t("projects.description-3"),
         finished: true,
         tools: [
           "React",
